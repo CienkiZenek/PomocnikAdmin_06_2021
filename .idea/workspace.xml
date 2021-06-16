@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="626">
-              <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+              <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -426,12 +426,12 @@
       <workItem from="1623135041136" duration="2264000" />
       <workItem from="1623313164276" duration="2678000" />
       <workItem from="1623396498245" duration="2354000" />
-      <workItem from="1623830116484" duration="1493000" />
+      <workItem from="1623830116484" duration="1930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399972000" />
+    <option name="totallyTimeSpent" value="400409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="13" width="1903" height="1022" extended-state="0" />
@@ -834,7 +834,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
-          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+          <caret line="78" column="10" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
         </state>
       </provider>
     </entry>
