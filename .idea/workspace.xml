@@ -2,71 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb083a-9165-47ff-bbcd-f403b9074c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/listy/_doUsera.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tresc/dodawanie/przekazdnia-dodawanie.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tresc/edycja/przekazdnia-edycja.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/tresc/listy/przekazdnia-lista.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pomocnikAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pomocnikAdmin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Hasla.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Hasla.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HaslaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HaslaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/InfoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/InfoController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MiejscaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MiejscaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PlikiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PlikiController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ZnalezioneController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ZnalezioneController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/PrzypisyModul.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/PrzypisyModul.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/ListUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ListUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Media.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Media.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Miejsca.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Miejsca.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Propozycje.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Propozycje.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Propozycje_uwagi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Propozycje_uwagi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tagi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tagi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Zagadnienia.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Zagadnienia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Zagadnienia_uwagi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Zagadnienia_uwagi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Znalezione.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Znalezione.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/MediaFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/MediaFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/MiejscaFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/MiejscaFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/PropozycjeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/PropozycjeFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/Propozycje_uwagiFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/Propozycje_uwagiFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ZagadnieniaFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ZagadnieniaFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/Zagadnienia_uwagiFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/Zagadnienia_uwagiFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/ZnalezioneFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ZnalezioneFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_01_30_134455_create_miejsca_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_01_30_134455_create_miejsca_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_06_122502_create_znalezione_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_06_122502_create_znalezione_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_17_115923_create_hasla_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_17_115923_create_hasla_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_17_120017_create_zagadnienia_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_17_120017_create_zagadnienia_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_24_092821_create_zagadnienia_tagi_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_24_092821_create_zagadnienia_tagi_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_28_091659_create_media_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_28_091659_create_media_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_08_101958_create_propozycje.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_101958_create_propozycje.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_08_102214_create_propozycje_uwagi_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_102214_create_propozycje_uwagi_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_08_102423_create_zagadnienia_uwagi_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_08_102423_create_zagadnienia_uwagi_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeders/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/UsersTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-css/bootstrap-icons.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-css/bootstrap-icons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-css/fonts/bootstrap-icons.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-css/fonts/bootstrap-icons.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/bootstrap-css/fonts/bootstrap-icons.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/bootstrap-css/fonts/bootstrap-icons.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/scriptsWspolneAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scriptsWspolneAdmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/obrazki/BqMol3Y5hjRIKNMS93UiTUo5hsbA4xEOvtZSosW6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/obrazki/KPEBfrFvgwKK6OT7CpKHy3jVDefLFNwK7n6vAsAQ.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dodatki/paginacja.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dodatki/paginacja.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/przypisy-modul.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/przypisy-modul.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/szablon.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/szablon.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/dodawanie/info-dodawanie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/dodawanie/info-dodawanie.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/dodawanie/znalezione-dodawanie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/dodawanie/znalezione-dodawanie.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/edycja/hasla-edycja.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/edycja/hasla-edycja.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/edycja/tagi-edycja.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/edycja/tagi-edycja.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/edycja/zagadnienia-edycja.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/edycja/zagadnienia-edycja.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/menu-glowne.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/menu-glowne.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="626">
+              <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -489,12 +426,12 @@
       <workItem from="1623135041136" duration="2264000" />
       <workItem from="1623313164276" duration="2678000" />
       <workItem from="1623396498245" duration="2354000" />
-      <workItem from="1623830116484" duration="1126000" />
+      <workItem from="1623830116484" duration="1493000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="399605000" />
+    <option name="totallyTimeSpent" value="399972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="24" y="13" width="1903" height="1022" extended-state="0" />
@@ -896,8 +833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="626">
+          <caret line="78" column="16" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
         </state>
       </provider>
     </entry>
