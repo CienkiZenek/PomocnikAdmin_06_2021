@@ -62,7 +62,7 @@
     <footer class="tlo-szare1 mt-auto py-2">
 
         <div class="col-12 text-center ">&reg; PomocnikDyskutanta 2021 </div>
-        <div class="fs-6">Wersja: 0.10</div>
+        <div class="fs-6">Wersja: 0.11</div>
     </footer>
 
 <button onclick="topFunction()" id="myBtn" title="Do góry">Do góry</button>
@@ -76,6 +76,5 @@
 <script src="{{ URL::asset('/js/scriptsWspolneAdmin.js')}}"></script>
 <script src="{{ URL::asset('/js/lightbox.js')}}"></script>
 {{--<script src="{{ URL::asset('vendor/livewire/livewire.js')}}"></script>--}}
-          {{--
-          --}}
+          
 </html>
