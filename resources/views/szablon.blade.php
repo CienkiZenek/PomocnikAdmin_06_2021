@@ -76,5 +76,6 @@
 <script src="{{ URL::asset('/js/scriptsWspolneAdmin.js')}}"></script>
 <script src="{{ URL::asset('/js/lightbox.js')}}"></script>
 {{--<script src="{{ URL::asset('vendor/livewire/livewire.js')}}"></script>--}}
-          
+          {{--
+          --}}
 </html>
