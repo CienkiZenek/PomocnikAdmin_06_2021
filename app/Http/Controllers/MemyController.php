@@ -43,7 +43,11 @@ class MemyController extends Controller
          $data = $this->validator($request->all());
 
         if(isset($data['mem'])) {
-            $path = $request->file('mem')->store('memy');
+            //$path = $request->file('mem')->store('memy');
+            $path = $request->file('plik')->storeAs(
+                'memy', $request->file('plik')->getClientOriginalName()
+            );
+
             $data['mem'] = $path;
         }
         $data = Arr::add($data, 'dodal_user', 1);
@@ -68,7 +72,10 @@ class MemyController extends Controller
         $oldMem=$mem->mem;
         $data = $this->validatorUpdate($request->all());
         if(isset($data['mem'])) {
-            $path = $request->file('mem')->store('memy');
+            //$path = $request->file('mem')->store('memy');
+            $path = $request->file('mem')->storeAs(
+                'memy', $request->file('mem')->getClientOriginalName()
+            );
             $data['mem']=$path;
         }
         $mem->update($data);

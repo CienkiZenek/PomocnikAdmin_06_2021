@@ -129,11 +129,18 @@ class ZagadnieniaController extends Controller
         $oldObrazek1=$zagadnienie->obrazek1;
         $oldObrazek2=$zagadnienie->obrazek2;
         if(isset($data['obrazek1'])){
-            $path = $request->file('obrazek1')->store('obrazki');
+           // $path = $request->file('obrazek1')->store('obrazki');
+            $path = $request->file('obrazek1')->storeAs(
+                'obrazki', $request->file('obrazek1')->getClientOriginalName()
+            );
             $data['obrazek1']=$path;
         }
         if(isset($data['obrazek2'])){
-            $path = $request->file('obrazek2')->store('obrazki');
+            //$path = $request->file('obrazek2')->store('obrazki');
+            $path = $request->file('obrazek2')->storeAs(
+                'obrazki', $request->file('obrazek2')->getClientOriginalName()
+            );
+
             $data['obrazek2']=$path;
         }
         // AKTUALIZACJA WŁASCIWA:

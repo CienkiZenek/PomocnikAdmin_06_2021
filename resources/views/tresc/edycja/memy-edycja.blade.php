@@ -16,6 +16,7 @@
                     <a href="{{$mem->Urlmem}}" data-lightbox="example-1"><img src="{{$mem->Urlmem}}" class="figure-img img-fluid rounded" alt="..."></a>
                     <figcaption class="figure-caption">{{$mem->podpis}}</figcaption>
                 </figure>
+
             </div>
         </div>
 

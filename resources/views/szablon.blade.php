@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap-css/bootstrap-reboot.min.css')}}">
     <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap-css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap-css/bootstrap-grid.min.css')}}">
+   {{-- <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap-css/bootstrap-grid.min.css')}}">--}}
     <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap-css/bootstrap-icons.css')}}">
     <link rel="stylesheet" href="{{ URL::asset('/css/lightbox.css')}}">
     <link rel="stylesheet" href="{{ URL::asset('/css/fonty.css')}}">
@@ -62,7 +62,7 @@
     <footer class="tlo-szare1 mt-auto py-2">
 
         <div class="col-12 text-center ">&reg; PomocnikDyskutanta 2021 </div>
-        <div class="fs-6">Wersja: 0.11</div>
+        <div class="fs-6">Wersja: 0.111</div>
     </footer>
 
 <button onclick="topFunction()" id="myBtn" title="Do góry">Do góry</button>
@@ -76,5 +76,5 @@
 <script src="{{ URL::asset('/js/scriptsWspolneAdmin.js')}}"></script>
 <script src="{{ URL::asset('/js/lightbox.js')}}"></script>
 {{--<script src="{{ URL::asset('vendor/livewire/livewire.js')}}"></script>--}}
-          
+
 </html>

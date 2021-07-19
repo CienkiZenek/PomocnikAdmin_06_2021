@@ -45,7 +45,7 @@
 
         </div>
         <div class="btn-group btn-group-lg col-6"  role="group" aria-label="...">
-            <a href="{{route('karuzela')}}" class="btn btn-primary" role="button" aria-pressed="true">Karuzela</a>
+           {{-- <a href="{{route('karuzela')}}" class="btn btn-primary" role="button" aria-pressed="true">Karuzela</a>--}}
 
         </div>
     </div>
@@ -55,7 +55,7 @@
 
         </div>
         <div class="btn-group btn-group-lg col-6"  role="group" aria-label="...">
-            <a href="{{route('livewire')}}" class="btn btn-primary" role="button" aria-pressed="true">Livewire</a>
+           {{-- <a href="{{route('livewire')}}" class="btn btn-primary" role="button" aria-pressed="true">Livewire</a>--}}
 
         </div>
     </div>
