@@ -40,8 +40,9 @@ class UserFactory extends Factory
         'stan' => 'Aktywny',
         'izsk_warunek' => false,
         'izsk' => 'Nie',
-        'zgoda_listy_red' => false,
-        'zgoda_listy_innych' => false,
+        'listy_odbiera' => true,
+        'zgoda_listy_red' => true,
+        'zgoda_listy_innych' => true,
         'zgoda_regulamin' => true,
         'remember_token' => Str::random(10),
     ];

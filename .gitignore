@@ -1,11 +1,15 @@
 /node_modules
 /public/hot
 /public/storage
+/public/memy
+/public/obrazki
+/public/pliki_bibliograf
 /storage/*.key
 /vendor
 .env
 .env.backup
 .phpunit.result.cache
+.gitignore
 Homestead.json
 Homestead.yaml
 npm-debug.log

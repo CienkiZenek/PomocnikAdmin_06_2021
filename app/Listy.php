@@ -9,5 +9,5 @@ class Listy extends Model
 {
     use HasFactory;
     protected $table = 'listy';
-    protected $fillable =['tresc', 'naglowek', 'tytul', 'autor_id', 'odbiorca_id', 'status'];
+    protected $fillable =['tresc', 'naglowek', 'tytul', 'autor_id', 'odbiorca_id', 'status', 'rodzajOdbiorcy'];
 }
