@@ -1,7 +1,7 @@
 @component('mail::message')
 
 
-    Do: {{$user->name}}<br>
+    {{$user->name}}<br>
     {{$tresc}}<br><br><br>
 
 

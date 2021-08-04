@@ -1,13 +1,17 @@
 @component('mail::message')
-List do wszyscy!<br>
-# {{$user->name}}<br>
-{{$tresc}}
 
-    {{--@component('mail::button', ['url' => url('/')])
 
-    @endcomponent--}}
+ {{$user->name}}<br>
+ {{$tresc}}<br><br><br>
 
-Pozdrawiamy<br>
-{{ config('app.name') }}
+
+ {{--@component('mail::button', ['url' => url('/')])
+
+ @endcomponent--}}
+
+ Pozdrawiamy
+ PomocnikDyskutanta.pl
+ {{--{{ config('app.name') }}--}}
+
 
 @endcomponent

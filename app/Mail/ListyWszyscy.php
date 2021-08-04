@@ -32,7 +32,8 @@ class ListyWszyscy extends Mailable
     public function build()
     {
         return $this
-            ->from('wszyscy@abc.pl')
+            ->subject('List od redakcji PoradnikDyskutanta.pl')
+            ->from(env('MAIL_REDAKCJA'))
             /*->bcc(config('mail.admin.adress'))*/
             ->markdown('listy.doWszyscy');
     }

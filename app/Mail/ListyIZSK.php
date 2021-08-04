@@ -31,7 +31,8 @@ class ListyIZSK extends Mailable
     public function build()
     {
         return $this
-            ->from('iszk@abc.pl')
+            ->subject('List od redakcji PoradnikDyskutanta.pl')
+            ->from(env('MAIL_REDAKCJA'))
             /*->bcc(config('mail.admin.adress'))*/
             ->markdown('listy.doIZSK');
     }

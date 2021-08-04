@@ -1,13 +1,17 @@
 @component('mail::message')
-List do ISZK!<br>
-# {{$user->name}}
-{{$tresc}}<br>
+
+
+    {{$user->name}}<br>
+    {{$tresc}}<br><br><br>
+
 
     {{--@component('mail::button', ['url' => url('/')])
 
     @endcomponent--}}
 
-Pozdrawiamy<br>
-{{ config('app.name') }}
+    Pozdrawiamy
+    PomocnikDyskutanta.pl
+    {{--{{ config('app.name') }}--}}
+
 
 @endcomponent
