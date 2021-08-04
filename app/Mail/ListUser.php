@@ -35,6 +35,7 @@ class ListUser extends Mailable
            // ->from('dousera@abc.pl')->markdown('listy.doUsera');
            // ->from('dousera@abc.pl')->view('listy.doUsera')->with(['tresc'=>'Aaaaaaaaa', 'tresc2'=>$tresc2]);
            //->from('poczta@poradnikdyskutanta.pl')->markdown('listy.doUsera');
-            >from('dousera@abc.pl')->view('listy.doUsera')->with(['tresc'=>$this->tresc]);
+            //>from('dousera@abc.pl')->view('listy.doUsera')->with(['tresc'=>$this->tresc]);
+           ->from('poczta@poradnikdyskutanta.pl')->markdown('listy.doUsera');
     }
 }

@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00fb083a-9165-47ff-bbcd-f403b9074c3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/ListUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ListUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/listy/_doUsera.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="00fb083a-9165-47ff-bbcd-f403b9074c3c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +34,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Mail/ListUser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+            <state relative-caret-position="643">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/listy/doUsera.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -303,7 +297,7 @@
       <path value="$PROJECT_DIR$/vendor/nette/schema" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="43" />
     <option name="y" value="19" />
     <option name="width" value="1889" />
@@ -510,12 +504,12 @@
       <workItem from="1627886233226" duration="1821000" />
       <workItem from="1627977467651" duration="347000" />
       <workItem from="1627978156707" duration="2257000" />
-      <workItem from="1628058144393" duration="1306000" />
+      <workItem from="1628058144393" duration="1631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418841000" />
+    <option name="totallyTimeSpent" value="419166000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,7 +524,7 @@
     <frame x="43" y="19" width="1889" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531438" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -902,17 +896,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/ListUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/listy/doUsera.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/ListUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
         </state>
       </provider>
     </entry>
