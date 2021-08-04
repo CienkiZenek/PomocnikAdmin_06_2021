@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb083a-9165-47ff-bbcd-f403b9074c3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pomocnikAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pomocnikAdmin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Listy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Listy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/szablon.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/szablon.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/ListUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ListUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/listy/_doUsera.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,17 +22,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="506" column="13" selection-start-line="506" selection-start-column="13" selection-end-line="506" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="567" column="71" selection-start-line="567" selection-start-column="61" selection-end-line="567" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="108" column="42" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="42" />
+              <folding>
+                <element signature="e#45#81#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2021_07_23_070925_add_rodzaj_odbiorcy_listy.php">
+        <entry file="file://$PROJECT_DIR$/app/Mail/ListUser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/listy/doUsera.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/wiadomosciForm/formListUser.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1410">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -46,8 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;scripts&quot;:</find>
-      <find>Next</find>
       <find>__</find>
       <find>zagadnieniaPoTagi</find>
       <find>zmian</find>
@@ -61,8 +93,6 @@
       <find>search</find>
       <find>listaZnalezione</find>
       <find>znalezioneZapisNowe</find>
-      <find>WyslijUserWy</find>
-      <find>wyslijUser</find>
       <find>kategoria_id</find>
       <find>zagadnienie</find>
       <find>$tagiZmiana</find>
@@ -76,6 +106,10 @@
       <find>dodajTag</find>
       <find>PoTagi</find>
       <find>zagadnienia_id</find>
+      <find>wyslijuser</find>
+      <find>wyslijUserForm</find>
+      <find>wyslijUser</find>
+      <find>WyslijUserWy</find>
     </findStrings>
     <replaceStrings>
       <replace>btn btn-primary</replace>
@@ -93,9 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/tresc/dodawanie/info-dodawanie.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/InfoController.php" />
-        <option value="$PROJECT_DIR$/resources/views/tresc/dodawanie/znalezione-dodawanie.blade.php" />
         <option value="$PROJECT_DIR$/database/factories/PropozycjeFactory.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_06_122502_create_znalezione_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_02_08_101958_create_propozycje.php" />
@@ -144,6 +175,9 @@
         <option value="$PROJECT_DIR$/storage/app/public/memy/index.js" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php" />
+        <option value="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" />
+        <option value="$PROJECT_DIR$/app/Mail/ListUser.php" />
       </list>
     </option>
   </component>
@@ -270,8 +304,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-25" />
-    <option name="y" value="29" />
+    <option name="x" value="43" />
+    <option name="y" value="19" />
     <option name="width" value="1889" />
     <option name="height" value="1007" />
   </component>
@@ -290,6 +324,42 @@
             <path>
               <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Mail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="listy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="wiadomosciForm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -439,12 +509,13 @@
       <workItem from="1627023063531" duration="2023000" />
       <workItem from="1627886233226" duration="1821000" />
       <workItem from="1627977467651" duration="347000" />
-      <workItem from="1627978156707" duration="699000" />
+      <workItem from="1627978156707" duration="2257000" />
+      <workItem from="1628058144393" duration="1306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="415977000" />
+    <option name="totallyTimeSpent" value="418841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,15 +527,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-25" y="29" width="1889" height="1007" extended-state="1" />
+    <frame x="43" y="19" width="1889" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25041005" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2531438" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32837528" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -506,43 +577,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/dodatki/bibl-plik-link.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2299" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Tagi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_24_092821_create_zagadnienia_tagi_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dodatki/przypisy.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dodatki/tagi-dodaj.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HaslaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="158" column="31" selection-start-line="158" selection-start-column="20" selection-end-line="158" selection-end-column="31" />
-          <folding>
-            <element signature="e#41#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/tresc/edycja/przekazdnia-edycja.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -827,17 +861,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="506" column="13" selection-start-line="506" selection-start-column="13" selection-end-line="506" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2021_07_23_070925_add_rodzaj_odbiorcy_listy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1410">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="567" column="71" selection-start-line="567" selection-start-column="61" selection-end-line="567" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="108" column="42" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="42" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/listy/_doUsera.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/wiadomosciForm/formListUser.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/listy/doUsera.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/ListUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="34" column="62" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
         </state>
       </provider>
     </entry>

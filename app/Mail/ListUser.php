@@ -34,7 +34,7 @@ class ListUser extends Mailable
         return $this
            // ->from('dousera@abc.pl')->markdown('listy.doUsera');
            // ->from('dousera@abc.pl')->view('listy.doUsera')->with(['tresc'=>'Aaaaaaaaa', 'tresc2'=>$tresc2]);
-           ->from('woperacz@gmail.com')->markdown('listy._doUsera');
-
+           //->from('poczta@poradnikdyskutanta.pl')->markdown('listy.doUsera');
+            >from('dousera@abc.pl')->view('listy.doUsera')->with(['tresc'=>$this->tresc]);
     }
 }

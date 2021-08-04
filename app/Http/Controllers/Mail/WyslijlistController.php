@@ -103,7 +103,9 @@ class WyslijlistController extends Controller
         // session()->flash('komunikat', "List do użytkownika zostały wysłane!");
        //  return redirect(route('edycjaUzytkownika', $user));
       // return redirect(route('listy_do'));
+
         $tresc= $request['tresc'];
+        //dd($tresc);
         Mail::to($user)->send(new ListUser($user, $tresc));
         //Mail::to($user)->send();
         session()->flash('komunikat', "List do użytkownika został wysłany!");

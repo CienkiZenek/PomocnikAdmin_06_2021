@@ -1,7 +1,7 @@
 @component('mail::message')
 
-    List do usera<br>
-    # {{$user->name}}<br>
+
+    Do: {{$user->name}}<br>
     {{$tresc}}<br><br><br>
 
 
@@ -9,8 +9,9 @@
 
     @endcomponent--}}
 
-    Pozdrawiamy<br>
-    {{ config('app.name') }}
+    Pozdrawiamy
+    PomocnikDyskutanta.pl
+    {{--{{ config('app.name') }}--}}
 
 
 @endcomponent
