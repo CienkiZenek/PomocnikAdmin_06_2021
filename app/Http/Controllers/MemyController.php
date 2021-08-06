@@ -44,8 +44,8 @@ class MemyController extends Controller
 
         if(isset($data['mem'])) {
             //$path = $request->file('mem')->store('memy');
-            $path = $request->file('plik')->storeAs(
-                'memy', $request->file('plik')->getClientOriginalName()
+            $path = $request->file('mem')->storeAs(
+                'memy', $request->file('mem')->getClientOriginalName()
             );
 
             $data['mem'] = $path;

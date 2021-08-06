@@ -10,7 +10,7 @@
     @endcomponent--}}
 
     Pozdrawiamy
-    PomocnikDyskutanta.pl
+    PoradnikDyskutanta.pl
     {{--{{ config('app.name') }}--}}
 
 

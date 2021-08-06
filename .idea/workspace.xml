@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb083a-9165-47ff-bbcd-f403b9074c3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Mail/ListUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ListUser.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/ListyIZSK.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ListyIZSK.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Mail/ListyWszyscy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ListyWszyscy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MemyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MemyController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/listy/doIZSK.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/listy/doIZSK.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/listy/doWszyscy.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/listy/doWszyscy.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/szablon.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/szablon.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,83 +23,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="763">
               <caret line="567" column="71" selection-start-line="567" selection-start-column="61" selection-end-line="567" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="108" column="42" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="42" />
-              <folding>
-                <element signature="e#45#81#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Mail/ListUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Mail/ListyIZSK.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="34" column="40" selection-start-line="33" selection-start-column="12" selection-end-line="34" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Mail/ListyWszyscy.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/listy/doWszyscy.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/listy/doIZSK.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/listy/doUsera.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="8" lean-forward="true" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+            <state relative-caret-position="1590">
+              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -136,8 +70,8 @@
       <find>zagadnienia_id</find>
       <find>wyslijuser</find>
       <find>wyslijUserForm</find>
-      <find>wyslijUser</find>
       <find>WyslijUserWy</find>
+      <find>wyslijUser</find>
     </findStrings>
     <replaceStrings>
       <replace>btn btn-primary</replace>
@@ -189,23 +123,23 @@
         <option value="$PROJECT_DIR$/config/filesystems.php" />
         <option value="$PROJECT_DIR$/resources/views/tresc/edycja/memy-edycja.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/MemyController.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Listy.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_07_23_070925_add_rodzaj_odbiorcy_listy.php" />
         <option value="$PROJECT_DIR$/database/factories/UserFactory.php" />
-        <option value="$PROJECT_DIR$/resources/views/szablon.blade.php" />
         <option value="$PROJECT_DIR$/storage/app/public/memy/index.js" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Mail/ListUser.php" />
-        <option value="$PROJECT_DIR$/app/Mail/ListyIZSK.php" />
-        <option value="$PROJECT_DIR$/app/Mail/ListyWszyscy.php" />
-        <option value="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/listy/doWszyscy.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/listy/doIZSK.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/listy/doWszyscy.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/listy/doUsera.blade.php" />
+        <option value="$PROJECT_DIR$/app/Mail/ListyWszyscy.php" />
+        <option value="$PROJECT_DIR$/app/Mail/ListyIZSK.php" />
+        <option value="$PROJECT_DIR$/app/Mail/ListUser.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/MemyController.php" />
+        <option value="$PROJECT_DIR$/resources/views/szablon.blade.php" />
       </list>
     </option>
   </component>
@@ -356,17 +290,6 @@
             <path>
               <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -374,20 +297,6 @@
               <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="listy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="wiadomosciForm" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -538,12 +447,15 @@
       <workItem from="1627886233226" duration="1821000" />
       <workItem from="1627977467651" duration="347000" />
       <workItem from="1627978156707" duration="2257000" />
-      <workItem from="1628058144393" duration="2517000" />
+      <workItem from="1628058144393" duration="3669000" />
+      <workItem from="1628065653289" duration="993000" />
+      <workItem from="1628150676094" duration="177000" />
+      <workItem from="1628238514408" duration="655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420052000" />
+    <option name="totallyTimeSpent" value="423029000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -555,10 +467,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="19" width="1889" height="1007" extended-state="0" />
+    <frame x="43" y="19" width="1889" height="1007" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531438" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.261345" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -765,30 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PlikiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/tresc/edycja/memy-edycja.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MemyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="76" column="43" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
-          <folding>
-            <element signature="e#40#53#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,13 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
@@ -873,26 +758,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="567" column="71" selection-start-line="567" selection-start-column="61" selection-end-line="567" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="108" column="42" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="42" />
-          <folding>
-            <element signature="e#45#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/listy/_doUsera.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/listy/_doUsera.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/wiadomosciForm/formListUser.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -905,52 +771,96 @@
         <state relative-caret-position="-347" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/resources/views/listy/doIZSK.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/ListUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/ListyIZSK.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="34" column="40" selection-start-line="33" selection-start-column="12" selection-end-line="34" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/ListyWszyscy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="360">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/listy/doUsera.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" lean-forward="true" selection-end-line="17" />
+        <state relative-caret-position="450">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/listy/doWszyscy.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="360">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/listy/doIZSK.blade.php">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/ListyIZSK.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PlikiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MemyController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="47" column="43" selection-start-line="47" selection-start-column="43" selection-end-line="47" selection-end-column="43" />
+          <folding>
+            <element signature="e#40#53#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/ListUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Mail/ListyWszyscy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Mail/WyslijlistController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="108" column="42" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="42" />
+          <folding>
+            <element signature="e#45#81#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="763">
+          <caret line="567" column="71" selection-start-line="567" selection-start-column="61" selection-end-line="567" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
