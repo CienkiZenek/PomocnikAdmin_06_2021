@@ -62,7 +62,7 @@
     <footer class="tlo-szare1 mt-auto py-2">
 
         <div class="col-12 text-center ">&reg; PomocnikDyskutanta 2021 </div>
-        <div class="fs-6">Wersja: 0.113</div>
+        <div class="fs-6">Wersja: 0.114</div>
     </footer>
 
 <button onclick="topFunction()" id="myBtn" title="Do góry">Do góry</button>

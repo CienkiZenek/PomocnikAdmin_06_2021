@@ -40,22 +40,7 @@ class CreateZagadnieniaTable extends Migration
             $table->text('linkSlownikPdf')->nullable();
             $table->text('trescLinku')->nullable();
             $table->text('status');
-
-            /*$table->string('zagadnienie');
-            $table->string('slug');
-            $table->text('tresc')->nullable();
-            $table->text('wiecej')->nullable();
-            $table->text('zajawka')->nullable();
-            $table->text('rozszerz')->nullable();
-            $table->text('modyfikacje')->nullable(); // kto i kiedy aktualiozwła
-            $table->unsignedBigInteger('haslo_id');
-            $table->unsignedBigInteger('kategoria_id');
-            $table->unsignedBigInteger('dzial_id');
-            $table->unsignedBigInteger('dodal_user');// kto dodał
-            $table->text('linkSlownikHtml')->nullable();
-            $table->text('linkSlownikPdf')->nullable();
-            $table->text('status');*/
-
+            $table->tinyInteger('procent_tresci');// jaki procent treści już jest kompletny
             $table->timestamps();
         });
     }

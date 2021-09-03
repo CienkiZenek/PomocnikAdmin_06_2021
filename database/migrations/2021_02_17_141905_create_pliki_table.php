@@ -20,7 +20,7 @@ class CreatePlikiTable extends Migration
             $table->string('dzial')->nullable();// Haslo lub Zagadnienie
             $table->unsignedBigInteger('id_pozycja')->nullable();// id Hasła lub zagadnienia do ktorego jest dołączone
             $table->unsignedBigInteger('dodal_user')->default('1');;// kto dodał
-            $table->timestamps();
+                        $table->timestamps();
         });
     }
 

@@ -21,6 +21,7 @@ class CreateListyTable extends Migration
             $table->string('status')->nullable();// wiadomość wysłana lub robocza
             $table->unsignedBigInteger('autor_id');// kto wysłał
             $table->unsignedBigInteger('odbiorca_id')->nullable();// kto wysłał
+            $table->string('rodzajOdbiorcy');
             $table->timestamps();
         });
     }
