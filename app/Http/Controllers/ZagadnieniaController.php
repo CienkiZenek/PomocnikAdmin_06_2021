@@ -29,21 +29,24 @@ class ZagadnieniaController extends Controller
             'dzial_id'=>'required',
             'kategoria_id'=>'required',
             'haslo_id'=>'required',
+            'procent_tresci'=>'required',
             'status'=>'required',
+
             'historia_zmian'=>'nullable',
             'dodal_user'=>'nullable',
             'tresc'=>'nullable',
             'wiecej'=>'nullable',
             'zajawka'=>'nullable',
             'zajawka_pokaz'=>'nullable',
-            'rozszerz'=>'nullable',
-            'obrazek1'=>'nullable',
-            'obrazek2'=>'nullable',
-            'tytulObrazek1'=>'nullable',
-            'tytulObrazek2'=>'nullable',
-            'podpisObrazek1'=>'nullable',
-            'podpisObrazek2'=>'nullable',
-            'linkSlownikPdf'=>'nullable',
+
+                         'rozszerz'=>'nullable',
+                         'obrazek1'=>'nullable',
+                         'obrazek2'=>'nullable',
+                         'tytulObrazek1'=>'nullable',
+                         'tytulObrazek2'=>'nullable',
+                         'podpisObrazek1'=>'nullable',
+                         'podpisObrazek2'=>'nullable',
+                         'linkSlownikPdf'=>'nullable',/**/
             'trescLinku'=>'nullable'
 
         ])->validate();
@@ -116,8 +119,8 @@ class ZagadnieniaController extends Controller
 
     public function update(Request $request, $id)
     {
-      $data =$request->all();
-      //  $data = $this->validator($request->all());
+      //$data =$request->all();
+      $data = $this->validator($request->all());
       /*dd($request['zagadnienie']);*/
       /*dd( $data);*/
         $zagadnienie = Zagadnienia::findOrFail($id);

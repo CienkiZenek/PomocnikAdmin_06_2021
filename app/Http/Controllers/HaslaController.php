@@ -27,10 +27,11 @@ class HaslaController extends Controller
             'kategoria_id'=>'required',
             'historia_zmian'=>'nullable',
             'dodal_user'=>'nullable',
-            'status'=>'required',
+           'procent_tresci'=>'required',
+           /* 'status'=>'required',*/
             'tresc'=>'nullable',
-            'linkSlownikHtml'=>'nullable',
-            'linkSlownikPdf'=>'nullable'
+            'linkSlownikPdf'=>'nullable',
+            'trescLinku'=>'nullable'
 
         ])->validate();
         return $walidated;
@@ -80,11 +81,12 @@ class HaslaController extends Controller
     {
         $haslo = Hasla::findOrFail($id);
 
-       // $data = $request->all();
+       //$data = $request->all();
        $data = $this->validator($request->all());
         $historia=$haslo['historia_zmian'].' Zmieniono (Admin): '.Now();
         $data['historia_zmian'] = $historia;
         $haslo->update($data);
+        $tagi=Tagi::orderBy('nazwa', 'asc')->get();
         $linkiDoListy='/listaHasla';
         $nazwaListy='Lista haseł';
         $dzialy=Dzialy::orderBy('dzial', 'asc')->get(); // lista działow, gdyby trzeab było zmienić dzial
@@ -99,6 +101,7 @@ class HaslaController extends Controller
         return view('tresc.edycja.hasla-edycja', ['haslo'=>$haslo,
             'linkiDoListy'=>$linkiDoListy,
             'nazwaListy'=>$nazwaListy,
+            'tagi'=>$tagi,
             'dzialy'=>$dzialy,
             'bibliografia'=>$biblografia,
             'linki'=>$linki,

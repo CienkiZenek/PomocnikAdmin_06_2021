@@ -73,7 +73,10 @@ body
     text-justify: inter-word;
 
 }
-
+.zielony
+{
+    color:green;
+}
 
 /* toTop https://www.w3schools.com/howto/howto_js_scroll_to_top.asp  */
 

@@ -62,6 +62,15 @@
                     <input type="text" class="form-control {{ $errors->has('haslo') ? ' is-invalid' : '' }}" name="haslo" id="haslo" value="{{$haslo->haslo}}" >
                 </div>
             </div>
+
+            <div class="col-4">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" >Procent wypełnienia:</span>
+                    </div>
+                    <input type="number" class="form-control {{ $errors->has('procent_tresci') ? ' is-invalid' : '' }}" required max="100" name="procent_tresci" id="procent_tresci" value="{{$haslo->procent_tresci}}" >
+                </div>
+            </div>
         </div>
 
         <div class="row mt-2">

@@ -13,7 +13,7 @@
 
 
         <div class="row mt-3">
-            <div class="col-6">
+            <div class="col-4">
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="status1">Status:</span>
@@ -40,9 +40,20 @@
                     </select>
                 </div>
 
-
             </div>
+
+            <div class="col-4">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" >Procent wypełnienia:</span>
+                    </div>
+                    <input type="number" class="form-control {{ $errors->has('procent_tresci') ? ' is-invalid' : '' }}" required max="100" name="procent_tresci" id="procent_tresci" value="{{$zagadnienie->procent_tresci}}" >
+                </div>
         </div>
+        </div>
+
+
+
 
         <div class="row mt-3">
             <div class="col-4">

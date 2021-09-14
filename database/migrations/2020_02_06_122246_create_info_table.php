@@ -20,7 +20,7 @@ class CreateInfoTable extends Migration
             $table->text('naglowek');
             $table->text('tresc')->nullable();
             $table->string('rodzaj');// ???
-            $table->unsignedBigInteger('dodal_user')->default('1');;// kto dodał
+            $table->unsignedBigInteger('dodal_user')->default('1');// kto dodał
             $table->string('link');
             $table->timestamps();
         });

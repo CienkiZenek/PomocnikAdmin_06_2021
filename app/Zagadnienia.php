@@ -34,6 +34,7 @@ class Zagadnienia extends Model
         'ramka_mala',
         'ramka_duza',
         'linkSlownikPdf',
+        'procent_tresci',
         'trescLinku'
         ];
 

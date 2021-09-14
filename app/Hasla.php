@@ -18,6 +18,7 @@ class Hasla extends Model
         'dodal_user',
         'historia_zmian',
         'linkSlownikPdf',
+        'procent_tresci',
         'trescLinku'
     ];
 

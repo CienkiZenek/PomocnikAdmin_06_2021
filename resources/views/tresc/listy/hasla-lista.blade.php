@@ -25,8 +25,32 @@
 
     <div class="list-group row mt-3">
     @foreach($Wyniki as $haslo)
-           <div class="col-8 size20"> <a href="{{ route('edycjaHasla', $haslo->id) }}" class="list-group-item list-group-item-action">{{ $haslo->haslo }}  ( Zagadnień: {{ $haslo->zagadnienia->count()}}) </a>
+           <div class="col-10 size20"><a href="{{ route('edycjaHasla', $haslo->id) }}" class="list-group-item list-group-item-action">{{ $haslo->haslo }}  ( Zagadnień: {{ $haslo->zagadnienia->count()}}) </a>
     </div>
+
+            @foreach($haslo->zagadnienia as $zagadnienie)
+                <div class="col-10">
+
+                    <div class="offset-1 col-11 size20 ">
+                        <a href="{{ route('edycjaZagadnienia', $zagadnienie->id) }}" class="list-group-item list-group-item-action"><i class="bi bi-arrow-right me-3"></i> {{ $zagadnienie->zagadnienie }}
+
+                            {{-- ikona obrazująca status zagadnienia --}}
+                            @if($zagadnienie->status=='Aktywny')
+                                <i class="bi bi-circle-fill ms-3" style="color: lightgreen"></i>
+                                @else
+                                <i class="bi bi-circle-fill ms-3" style="color: red"></i>
+                                @endif
+
+                        </a>
+                    </div>
+                    {{--<a href="{{ route('zagadnienieCale', $zagadnienie->slug) }}" class="link-dark">{{$zagadnienie->zagadnienie}}
+                    </a>
+--}}
+                </div>
+
+            @endforeach
+
+
     @endforeach
     </div>
     @include('dodatki.paginacja')

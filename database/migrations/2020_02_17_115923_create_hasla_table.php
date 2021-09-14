@@ -26,7 +26,7 @@ class CreateHaslaTable extends Migration
             $table->text('linkSlownikPdf')->nullable();
             $table->text('trescLinku')->nullable();
             $table->text('status');
-            $table->tinyInteger('procent_tresci');// jaki procent treści już jest kompletny
+            $table->tinyInteger('procent_tresci')->default('0');// jaki procent treści już jest kompletny
             $table->timestamps();
         });
     }
