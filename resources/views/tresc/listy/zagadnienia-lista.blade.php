@@ -28,7 +28,7 @@
 
     <div class="list-group row mt-2">
     @foreach($Wyniki as $zag)
-           <div class="col-8 size20"> <a href="{{ route('edycjaZagadnienia', $zag->id) }}" class="list-group-item list-group-item-action">{{ $zag->zagadnienie }}   </a>
+           <div class="col-8 size20"><a href="{{ route('edycjaZagadnienia', $zag->id) }}" class="list-group-item list-group-item-action"><span class="fw-bold">{{ $zag->zagadnienie }}</span> <span class="fs-6 ">({{$zag->hasla->haslo}})</span></a>
     </div>
     @endforeach
     </div>

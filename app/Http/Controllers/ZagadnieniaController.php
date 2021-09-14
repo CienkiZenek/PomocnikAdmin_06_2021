@@ -29,9 +29,8 @@ class ZagadnieniaController extends Controller
             'dzial_id'=>'required',
             'kategoria_id'=>'required',
             'haslo_id'=>'required',
-            'procent_tresci'=>'required',
             'status'=>'required',
-
+            'procent_tresci'=>'required',
             'historia_zmian'=>'nullable',
             'dodal_user'=>'nullable',
             'tresc'=>'nullable',
@@ -75,8 +74,8 @@ class ZagadnieniaController extends Controller
 
     public function create(Request $request)
     {
-       //$data=$request->all();
-       $data = $this->validator($request->all());
+       $data=$request->all();
+       //$data = $this->validator($request->all());
         $data = Arr::add($data, 'dodal_user', 1);
         Zagadnienia::create($data);
         session()->flash('komunikat', "Nowe zagadnienie zostało dodane");

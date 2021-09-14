@@ -6,7 +6,7 @@
     {{--{{dd($KategorieStartowe)}}--}}
         <form action="{{route('haslaUpdate', $haslo->id)}}" method="POST" >
         @csrf
-
+            <input type="text" hidden name="status" value="{{$haslo->status}}">
         <div class="row mt-3">
             <div class="col-6">
                 <div class="input-group">

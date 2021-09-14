@@ -7,7 +7,7 @@
 </div>
     <form action="{{route('zagadnieniaZapisNowe')}}" method="POST">
         @csrf
-
+        <input type="text" hidden name="procent_tresci" value="1">
         <div class="row mt-3">
             <div class="col-6">
                 <div class="input-group">

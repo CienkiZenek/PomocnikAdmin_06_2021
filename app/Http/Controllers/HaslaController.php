@@ -28,7 +28,7 @@ class HaslaController extends Controller
             'historia_zmian'=>'nullable',
             'dodal_user'=>'nullable',
            'procent_tresci'=>'required',
-           /* 'status'=>'required',*/
+           'status'=>'required',
             'tresc'=>'nullable',
             'linkSlownikPdf'=>'nullable',
             'trescLinku'=>'nullable'
@@ -36,6 +36,24 @@ class HaslaController extends Controller
         ])->validate();
         return $walidated;
     }
+
+    protected function validatorUpdate($data){
+        $walidated= Validator::make($data, [
+            'haslo'=>'required|min:3',
+            'dzial_id'=>'required',
+            'kategoria_id'=>'required',
+            'historia_zmian'=>'nullable',
+            'dodal_user'=>'nullable',
+            'procent_tresci'=>'required',
+            /*'status'=>'required',
+            'tresc'=>'nullable',
+            'linkSlownikPdf'=>'nullable',
+            'trescLinku'=>'nullable'*/
+
+        ])->validate();
+        return $walidated;
+    }
+
     public function index(){
         $Wyniki=Hasla::orderBy('haslo', 'asc')->paginate(10);
         //$Wyniki='';
@@ -46,7 +64,8 @@ class HaslaController extends Controller
     {
        // $data=$request->all();
         $data = $this->validator($request->all());
-       $data = Arr::add($data, 'dodal_user', 1);
+      $data = Arr::add($data, 'dodal_user', 1);
+       /*dd($data);*/
         Hasla::create($data);
         session()->flash('komunikat', "Nowe haslo została dodana");
         return redirect('/listaHasla');
@@ -81,8 +100,8 @@ class HaslaController extends Controller
     {
         $haslo = Hasla::findOrFail($id);
 
-       //$data = $request->all();
-       $data = $this->validator($request->all());
+      // $data = $request->all();
+       $data = $this->validatorUpdate($request->all());
         $historia=$haslo['historia_zmian'].' Zmieniono (Admin): '.Now();
         $data['historia_zmian'] = $historia;
         $haslo->update($data);

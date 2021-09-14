@@ -25,7 +25,7 @@
 
     <div class="list-group row mt-3">
     @foreach($Wyniki as $haslo)
-           <div class="col-10 size20"><a href="{{ route('edycjaHasla', $haslo->id) }}" class="list-group-item list-group-item-action">{{ $haslo->haslo }}  ( Zagadnień: {{ $haslo->zagadnienia->count()}}) </a>
+            <div class="col-10 size20"><a href="{{ route('edycjaHasla', $haslo->id) }}" class="list-group-item list-group-item-action"><span class="fw-bold">{{ $haslo->haslo }}</span>  <span class="fs-6 ">( Zagadnień: {{ $haslo->zagadnienia->count()}}) </span></a>
     </div>
 
             @foreach($haslo->zagadnienia as $zagadnienie)

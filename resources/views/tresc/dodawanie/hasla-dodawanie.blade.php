@@ -7,12 +7,14 @@
 </div>
     <form action="{{route('haslaZapisNowe')}}" method="POST">
         @csrf
+        <input type="text" hidden name="procent_tresci" value="1">
+        <input type="text" hidden name="status" value="Aktywny">
 
         <div class="row mt-2">
 
-            <div class="col-6">
+            {{-- <div class="col-6">
 
-                <div class="input-group">
+               <div class="input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text" id="status1">Status:</span>
                     </div>
@@ -27,7 +29,8 @@
             </div>
             <div class="col-6">
 
-            </div>
+            </div>--}}
+
         </div>
 
         <div class="row mt-3">
