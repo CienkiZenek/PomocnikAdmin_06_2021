@@ -39,8 +39,8 @@ class ZagadnieniaController extends Controller
             'zajawka_pokaz'=>'nullable',
 
                          'rozszerz'=>'nullable',
-                         'obrazek1'=>'nullable',
-                         'obrazek2'=>'nullable',
+                         'obrazek1'=>'nullable|image|max:4096',
+                         'obrazek2'=>'nullable|image|max:4096',
                          'tytulObrazek1'=>'nullable',
                          'tytulObrazek2'=>'nullable',
                          'podpisObrazek1'=>'nullable',

@@ -6,7 +6,8 @@
     {{--{{dd($KategorieStartowe)}}--}}
         <form action="{{route('haslaUpdate', $haslo->id)}}" method="POST" >
         @csrf
-            <input type="text" hidden name="status" value="{{$haslo->status}}">
+            <input type="text" hidden name="status" id="status" value="{{$haslo->status}}">
+           {{-- {{$haslo->status}}--}}
         <div class="row mt-3">
             <div class="col-6">
                 <div class="input-group">
@@ -145,7 +146,7 @@
 
     <div class="row mt-3 mb-5" >
         <div class="col-12 text-center mb-3">
-            <h3><span class="badge bg-secondary">Tagi (słowa kluczowe)</span></h3>
+            <h3><span class="badge bg-secondary">Tagi (słowa kluczowe dla: <i>{{$haslo->haslo}}</i>)</span></h3>
         </div>
         <div class="col-6 ">
             <ul class="list-group">

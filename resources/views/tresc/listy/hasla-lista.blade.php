@@ -36,10 +36,26 @@
 
                             {{-- ikona obrazująca status zagadnienia --}}
                             @if($zagadnienie->status=='Aktywny')
-                                <i class="bi bi-circle-fill ms-3" style="color: lightgreen"></i>
+                                <i class="bi bi-circle-fill ms-3" style="color: lightgreen"   title="Widoczna"></i>
                                 @else
-                                <i class="bi bi-circle-fill ms-3" style="color: red"></i>
+                                <i class="bi bi-circle-fill ms-3" style="color: red"  title="NIEwidoczna"></i>
                                 @endif
+                            {{-- Ikona pokazując czy zadadnienie jest zajawiane w rotatorze --}}
+                            @if($zagadnienie->zajawka_pokaz=='Tak')
+                                <i class="bi bi-diamond-fill ms-3" style="color: #0a58ca" title="Zajawka na stronie głównej"></i>
+
+                            @endif
+
+                            {{-- Obrazek 1 --}}
+                            @if(Str::length($zagadnienie->obrazek1)>5)
+                                <i class="bi bi-file-image ms-3" style="color: #0a58ca" title="Obrazek 1"></i>
+
+                            @endif
+
+                            {{-- Obrazek 2 --}}
+                            @if(Str::length($zagadnienie->obrazek2)>5)
+                                <i class="bi bi-file-image ms-3" style="color: #0a58ca" title="Obrazek 2"></i>
+                            @endif
 
                         </a>
                     </div>

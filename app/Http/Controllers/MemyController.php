@@ -14,7 +14,7 @@ class MemyController extends Controller
     protected function validator($data){
         $walidated= Validator::make($data, [
             'podpis'=>'required|min:3',
-            'mem'=>'required|image|max:1024',
+            'mem'=>'required|image|max:4096',
             'status'=>'required',
             'tytul'=>'required'
 

@@ -45,10 +45,11 @@ class HaslaController extends Controller
             'historia_zmian'=>'nullable',
             'dodal_user'=>'nullable',
             'procent_tresci'=>'required',
-            /*'status'=>'required',
             'tresc'=>'nullable',
+            'status'=>'required',
             'linkSlownikPdf'=>'nullable',
-            'trescLinku'=>'nullable'*/
+            'trescLinku'=>'nullable'
+
 
         ])->validate();
         return $walidated;

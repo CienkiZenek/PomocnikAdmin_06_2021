@@ -33,7 +33,7 @@ class TagiController extends Controller
         $data = $this->validator($request->all());
 
         //$data=$request->all();
-        $data = Arr::add($data, 'dodal_user', 10);
+        $data = Arr::add($data, 'dodal_user', 1);
         Tagi::create($data);
         session()->flash('komunikat', "Nowy tag została dodana");
         return redirect('/listaTagi');

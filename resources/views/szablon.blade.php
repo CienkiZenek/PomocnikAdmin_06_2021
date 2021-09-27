@@ -18,7 +18,15 @@
 
 </head>
 <body class="d-flex flex-column min-vh-100">
-
+{{--
+Święty Michale Archaniele,
+ wspomagaj nas w walce, a przeciw niegodziwości
+  i zasadzkom złego ducha bądź naszą obroną.
+   Oby go Bóg pogromić raczył, pokornie o to prosimy,
+    a Ty, Wodzu niebieskich zastępów, szatana i inne
+     duchy złe, które na zgubę dusz ludzkich po tym
+      świecie krążą, mocą Bożą strąć do piekła. Amen.
+--}}
 <div class="container " id="zawartoscGlowna">
 
 
@@ -68,10 +76,12 @@
     <footer class="tlo-szare1 mt-auto py-2">
 
         <div class="col-12 text-center ">&reg; PomocnikDyskutanta 2021 </div>
-        <div class="fs-6">Wersja: 0.115</div>
+        <div class="fs-6">Wersja: 0.117</div>
     </footer>
-
+<button onclick="bottomFunction()" id="btnDol" title="Do dołu">Do dołu</button>
 <button onclick="topFunction()" id="myBtn" title="Do góry">Do góry</button>
+
+
 @livewireScripts
 
 </body>
