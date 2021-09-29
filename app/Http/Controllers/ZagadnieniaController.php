@@ -35,7 +35,7 @@ class ZagadnieniaController extends Controller
             'dodal_user'=>'nullable',
             'tresc'=>'nullable',
             'wiecej'=>'nullable',
-            'zajawka'=>'nullable',
+            'zajawka'=>'nullable|max:210',
             'zajawka_pokaz'=>'nullable',
 
                          'rozszerz'=>'nullable',

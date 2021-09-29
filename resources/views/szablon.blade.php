@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="{{ URL::asset('/css/bootstrap-css/bootstrap-icons.css')}}">
     <link rel="stylesheet" href="{{ URL::asset('/css/lightbox.css')}}">
     <link rel="stylesheet" href="{{ URL::asset('/css/fonty.css')}}">
-    <link rel="stylesheet" href="{{ URL::asset('/css/styleAdmin.css')}}">
+    <link rel="stylesheet" href="{{ URL::asset('/css/styleAdmin.css?v='.config('pomocnikAdmin.wersja'))}}">
     @livewireStyles
 
 </head>
@@ -76,7 +76,7 @@
     <footer class="tlo-szare1 mt-auto py-2">
 
         <div class="col-12 text-center ">&reg; PomocnikDyskutanta 2021 </div>
-        <div class="fs-6">Wersja: 0.117</div>
+        <div class="fs-6">Wersja: {{--0.117--}}{{ config('pomocnikAdmin.wersja') }}</div>
     </footer>
 <button onclick="bottomFunction()" id="btnDol" title="Do dołu">Do dołu</button>
 <button onclick="topFunction()" id="myBtn" title="Do góry">Do góry</button>

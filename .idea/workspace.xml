@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb083a-9165-47ff-bbcd-f403b9074c3c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Dodatki/helpersAdmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pomocnikAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HaslaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HaslaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MemyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MemyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TagiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TagiController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/styleAdmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styleAdmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/scriptsWspolneAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/scriptsWspolneAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/szablon.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/szablon.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/edycja/hasla-edycja.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/edycja/hasla-edycja.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tresc/dodawanie/zagadnienia-dodawanie.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/dodawanie/zagadnienia-dodawanie.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/tresc/edycja/zagadnienia-edycja.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/edycja/zagadnienia-edycja.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/listy/hasla-lista.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/listy/hasla-lista.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/listy/zagadnienia-lista.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/listy/zagadnienia-lista.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,42 +32,49 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/tresc/listy/hasla-lista.blade.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="57" column="34" selection-start-line="48" selection-start-column="28" selection-end-line="57" selection-end-column="34" />
+            <state relative-caret-position="286">
+              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
               <folding>
-                <element signature="e#1813#1838#0#HTML" expanded="true" />
-                <element signature="e#1948#1966#0#HTML" expanded="true" />
-                <element signature="e#2243#2265#0#HTML" expanded="true" />
-                <element signature="e#2594#2616#0#HTML" expanded="true" />
-                <element signature="e#2863#2885#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/tresc/listy/zagadnienia-lista.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-              <folding>
-                <element signature="e#1452#1477#0#HTML" expanded="true" />
-                <element signature="e#1606#1624#0#HTML" expanded="true" />
-                <element signature="e#1922#1944#0#HTML" expanded="true" />
-                <element signature="e#2062#2084#0#HTML" expanded="true" />
-                <element signature="e#2357#2379#0#HTML" expanded="true" />
+                <element signature="e#40#60#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/pomocnikAdmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/tresc/dodawanie/zagadnienia-dodawanie.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="102" column="173" selection-start-line="102" selection-start-column="173" selection-end-line="102" selection-end-column="173" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/tresc/edycja/zagadnienia-edycja.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="145" column="173" selection-start-line="145" selection-start-column="173" selection-end-line="145" selection-end-column="173" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="78" column="39" lean-forward="true" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+            <state relative-caret-position="431">
+              <caret line="78" column="43" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -127,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/factories/Zagadnienia_uwagiFactory.php" />
         <option value="$PROJECT_DIR$/app/Zagadnienia_uwagi.php" />
         <option value="$PROJECT_DIR$/database/factories/ZagadnieniaFactory.php" />
         <option value="$PROJECT_DIR$/app/Tagi.php" />
@@ -158,26 +160,27 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/database/migrations/2021_07_16_074758_create_listy_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2021_02_17_141905_create_pliki_table.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_06_122246_create_info_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_17_115923_create_hasla_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_17_120017_create_zagadnienia_table.php" />
         <option value="$PROJECT_DIR$/app/Hasla.php" />
         <option value="$PROJECT_DIR$/app/Zagadnienia.php" />
-        <option value="$PROJECT_DIR$/resources/views/tresc/dodawanie/zagadnienia-dodawanie.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tresc/dodawanie/hasla-dodawanie.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/TagiController.php" />
         <option value="$PROJECT_DIR$/public/css/styleAdmin.css" />
         <option value="$PROJECT_DIR$/public/js/scriptsWspolneAdmin.js" />
-        <option value="$PROJECT_DIR$/resources/views/tresc/edycja/zagadnienia-edycja.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tresc/edycja/memy-edycja.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HaslaController.php" />
         <option value="$PROJECT_DIR$/resources/views/tresc/edycja/hasla-edycja.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MemyController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php" />
         <option value="$PROJECT_DIR$/resources/views/tresc/listy/hasla-lista.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/tresc/listy/zagadnienia-lista.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/szablon.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/tresc/edycja/zagadnienia-edycja.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/tresc/dodawanie/zagadnienia-dodawanie.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php" />
+        <option value="$PROJECT_DIR$/config/pomocnikAdmin.php" />
       </list>
     </option>
   </component>
@@ -305,9 +308,9 @@
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="38" />
-    <option name="y" value="19" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="27" />
+    <option name="y" value="23" />
     <option name="width" value="1889" />
     <option name="height" value="1007" />
   </component>
@@ -329,28 +332,7 @@
             <path>
               <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tresc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pomocnikAdmin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pomocnikAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="tresc" type="462c0819:PsiDirectoryNode" />
-              <item name="listy" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -368,16 +350,16 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\_StronyWWW\pomocnikAdmin\resources\views" />
-      <recent name="D:\_StronyWWW\pomocnikAdmin\resources\views\livewire" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_StronyWWW\pomocnikAdmin\config" />
+      <recent name="D:\_StronyWWW\pomocnikAdmin\app" />
       <recent name="D:\_StronyWWW\pomocnikAdmin\resources\views\tresc\edycja" />
       <recent name="D:\_StronyWWW\pomocnikAdmin\resources\views\tresc\dodawanie" />
       <recent name="D:\_StronyWWW\pomocnikAdmin\resources\views\tresc\listy" />
-      <recent name="D:\_StronyWWW\pomocnikAdmin\resources\lang" />
-      <recent name="D:\_StronyWWW\pomocnikAdmin\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\_StronyWWW\pomocnikAdmin\resources\views" />
+      <recent name="D:\_StronyWWW\pomocnikAdmin\resources\views\livewire" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -516,11 +498,13 @@
       <workItem from="1631866449428" duration="1136000" />
       <workItem from="1631873019345" duration="793000" />
       <workItem from="1632506137127" duration="2432000" />
+      <workItem from="1632764609410" duration="601000" />
+      <workItem from="1632939020856" duration="2172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="452492000" />
+    <option name="totallyTimeSpent" value="455265000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,10 +516,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="19" width="1889" height="1007" extended-state="0" />
+    <frame x="27" y="23" width="1889" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19354838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19792236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -582,20 +566,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_06_122347_create_memy_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="22" column="80" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="22" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Linki.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="80" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/filesystems.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -767,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_06_122246_create_info_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -812,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tresc/dodawanie/zagadnienia-dodawanie.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/scriptsWspolneAdmin.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -830,13 +786,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="104" column="7" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tresc/edycja/zagadnienia-edycja.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="297" column="106" selection-start-line="297" selection-start-column="70" selection-end-line="297" selection-end-column="106" />
         </state>
       </provider>
     </entry>
@@ -858,16 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-          <folding>
-            <element signature="e#40#60#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -902,6 +841,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Dodatki/helpersAdmin.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tresc/listy/zagadnienia-lista.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tresc/listy/hasla-lista.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="57" column="34" selection-start-line="48" selection-start-column="28" selection-end-line="57" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="750">
@@ -909,38 +879,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tresc/listy/hasla-lista.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/tresc/edycja/zagadnienia-edycja.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="57" column="34" selection-start-line="48" selection-start-column="28" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="547">
+          <caret line="145" column="173" selection-start-line="145" selection-start-column="173" selection-end-line="145" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tresc/dodawanie/zagadnienia-dodawanie.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="102" column="173" selection-start-line="102" selection-start-column="173" selection-end-line="102" selection-end-column="173" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding>
-            <element signature="e#1813#1838#0#HTML" expanded="true" />
-            <element signature="e#1948#1966#0#HTML" expanded="true" />
-            <element signature="e#2243#2265#0#HTML" expanded="true" />
-            <element signature="e#2594#2616#0#HTML" expanded="true" />
-            <element signature="e#2863#2885#0#HTML" expanded="true" />
+            <element signature="e#40#60#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/tresc/listy/zagadnienia-lista.blade.php">
+    <entry file="file://$PROJECT_DIR$/config/pomocnikAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
-          <folding>
-            <element signature="e#1452#1477#0#HTML" expanded="true" />
-            <element signature="e#1606#1624#0#HTML" expanded="true" />
-            <element signature="e#1922#1944#0#HTML" expanded="true" />
-            <element signature="e#2062#2084#0#HTML" expanded="true" />
-            <element signature="e#2357#2379#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="78" column="39" lean-forward="true" selection-start-line="78" selection-start-column="39" selection-end-line="78" selection-end-column="39" />
+        <state relative-caret-position="250">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>

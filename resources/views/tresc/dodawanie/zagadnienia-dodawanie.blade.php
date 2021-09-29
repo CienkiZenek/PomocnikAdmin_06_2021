@@ -100,7 +100,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text" >Zajawka:</span>
                     </div>
-                    <textarea class="form-control" rows="2" name="zajawka" id="zajawka" aria-label="Zajawka:">{{ old('zajawka') }}</textarea>
+                    <textarea class="form-control{{ $errors->has('zajawka') ? ' is-invalid' : '' }}" rows="2" name="zajawka" id="zajawka" aria-label="Zajawka:" maxlength="200">{{ old('zajawka') }}</textarea>
                 </div>
 
             </div>
