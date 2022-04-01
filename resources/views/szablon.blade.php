@@ -75,7 +75,7 @@
 </footer>--}}
     <footer class="tlo-szare1 mt-auto py-2">
 
-        <div class="col-12 text-center ">&reg; PomocnikDyskutanta 2021 </div>
+        <div class="col-12 text-center ">&reg; PomocnikDyskutanta 2022 </div>
         <div class="fs-6">Wersja: {{--0.117--}}{{ config('pomocnikAdmin.wersja') }}</div>
     </footer>
 <button onclick="bottomFunction()" id="btnDol" title="Do dołu">Do dołu</button>
@@ -85,7 +85,7 @@
 @livewireScripts
 
 </body>
-<script src="{{ URL::asset('/js/jquery-3.5.1.min.js')}}"></script>
+<script src="{{ URL::asset('/js/jquery-3.6.0.min.js')}}"></script>
 {{--<script src="{{ URL::asset('/js/bootstrap-js/bootstrap.min.js')}}"></script>--}}
 <script src="{{ URL::asset('/js/bootstrap-js/bootstrap.bundle.min.js')}}"></script>
 
