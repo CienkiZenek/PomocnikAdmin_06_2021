@@ -60,7 +60,7 @@ class PrzekazdniaController extends Controller
         $linkiDoListy='/listaPrzekazDnia';
         $nazwaListy='Lista Przekazów dnia';
 
-        return view('tresc.edycja.Przekazdnia-edycja', ['przekaz'=>$przekaz,
+        return view('tresc.edycja.przekazdnia-edycja', ['przekaz'=>$przekaz,
             'tagi'=>$tagi,
             'linkiDoListy'=>$linkiDoListy,
             'nazwaListy'=>$nazwaListy]);

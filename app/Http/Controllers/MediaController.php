@@ -30,9 +30,19 @@ class MediaController extends Controller
     public function create(Request $request)
     {
         $data = $this->validator($request->all());
-        $path = $request->file('logo')->store('logaMedia');
-        $data['logo']=$path;
+
+
+       /* $path = $request->file('logo')->store('logaMedia');
+        $data['logo']=$path;*/
+
+        if(isset($data['logo'])) {
+
+            $path = $request->file('logo')->store('logaMedia');
+            $data['logo']=$path;
+        }
+
         Media::create($data);
+
         session()->flash('komunikat', "Nowe medium zostało dodane!");
         return redirect('/listaMedia');
     }
