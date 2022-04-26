@@ -88,11 +88,24 @@ class PropozycjeController extends Controller
         $linkiDoListy='/listaPropozycje';
         $nazwaListy='Lista propozycji';
         $user=User::findOrFail($propozycja->dodal_user);
+        // tworzenie zmienych z uwagami do propozycji - wg. ich statusu
+        $uwagi_usuniete=Propozycje_uwagi::where('propozycja_id', $id)->where('status', 'Usunięta')->orderBy('created_at', 'asc')->get();
+        $uwagi_oczekujace=Propozycje_uwagi::where('propozycja_id', $id)->where('status', 'Oczekuje')->orderBy('created_at', 'asc')->get();
+        $uwagi_nowe=Propozycje_uwagi::where('propozycja_id', $id)->where('status', 'Nowa')->orderBy('created_at', 'asc')->get();
+        $uwagi_dodane=Propozycje_uwagi::where('propozycja_id', $id)->where('status', 'Dodana')->orderBy('created_at', 'asc')->get();
+
+
         session()->flash('komunikat', "Propozycja została zaktualizowana!");
         return view('tresc.edycja.propozycje-edycja', ['propozycja'=>$propozycja,
             'linkiDoListy'=>$linkiDoListy,
             'nazwaListy'=>$nazwaListy,
-            'user'=>$user]);
+            'user'=>$user,
+            'lista'=>'Wszystkie',
+            'uwagi_usuniete'=>$uwagi_usuniete,
+            'uwagi_oczekujace'=>$uwagi_oczekujace,
+            'uwagi_nowe'=>$uwagi_nowe,
+            'uwagi_dodane'=>$uwagi_dodane
+        ]);
 
     }
 
@@ -101,7 +114,7 @@ class PropozycjeController extends Controller
         $propozycje = Propozycje::findOrFail($id);
         $propozycje->delete();
         session()->flash('komunikat', "Propozycja została usunięta!");
-        return redirect('/listaPropozycje');
+        return redirect(route('listaPropozycje', 'Wszystkie'));
     }
     public function search(Request $request){
 

@@ -147,7 +147,7 @@ Uwagi do propozycji:
             <form action="{{route('usunPropozycje', $propozycja->id)}}" method="post">
                 @csrf
                 {{method_field('DELETE')}}
-                <button class="btn btn-danger" onclick="return confirm('Jesteś pewien?')">Usuń znalezione</button>
+                <button class="btn btn-danger" onclick="return confirm('Jesteś pewien?')">Usuń propozycje</button>
 
 
             </form>

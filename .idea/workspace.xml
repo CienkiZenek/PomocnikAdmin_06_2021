@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb083a-9165-47ff-bbcd-f403b9074c3c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pomocnikAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pomocnikAdmin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/MediaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/MediaController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PrzekazdniaController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PrzekazdniaController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PropozycjeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PropozycjeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/pomocnikAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/pomocnikAdmin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tresc/edycja/propozycje-edycja.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/edycja/propozycje-edycja.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/tresc/menu-glowne.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/menu-glowne.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +26,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            <state relative-caret-position="25">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -31,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/config/pomocnikAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+              <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -40,15 +45,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>usunTag</find>
-      <find>tagDodaj</find>
-      <find>haslaPo</find>
-      <find>tresc</find>
-      <find>tagiZmiana</find>
-      <find>usunTagPrzekaz</find>
-      <find>dodajTag</find>
-      <find>PoTagi</find>
-      <find>zagadnienia_id</find>
       <find>wyslijuser</find>
       <find>wyslijUserForm</find>
       <find>WyslijUserWy</find>
@@ -70,6 +66,15 @@
       <find>fil</find>
       <find>stat</find>
       <find>-edycj</find>
+      <find>usu</find>
+      <find>usunPropozycje</find>
+      <find>listaPropozycje</find>
+      <find>usuń</find>
+      <find>hidd</find>
+      <find>Wybierz Status uwag</find>
+      <find>Zmień</find>
+      <find>Zmień st</find>
+      <find>$uwagi_nowe</find>
     </findStrings>
     <replaceStrings>
       <replace>btn btn-primary</replace>
@@ -87,8 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/dodatki/tagi-dodaj.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2021_06_07_080811_create_hasla_tagi_table.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/tresc/edycja/przekazdnia-edycja.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PlikiController.php" />
@@ -96,7 +99,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2020_02_28_091659_create_media_table.php" />
         <option value="$PROJECT_DIR$/database/factories/MediaFactory.php" />
         <option value="$PROJECT_DIR$/database/factories/MiejscaFactory.php" />
-        <option value="$PROJECT_DIR$/resources/views/tresc/menu-glowne.blade.php" />
         <option value="$PROJECT_DIR$/config/filesystems.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/Listy.php" />
@@ -137,6 +139,9 @@
         <option value="$PROJECT_DIR$/resources/views/szablon.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MediaController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PrzekazdniaController.php" />
+        <option value="$PROJECT_DIR$/resources/views/tresc/edycja/propozycje-edycja.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/tresc/menu-glowne.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PropozycjeController.php" />
         <option value="$PROJECT_DIR$/config/pomocnikAdmin.php" />
       </list>
     </option>
@@ -260,11 +265,13 @@
       <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-debugbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/maximebf/debugbar" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="4" />
+    <option name="x" value="-4" />
     <option name="width" value="1889" />
     <option name="height" value="1007" />
   </component>
@@ -276,7 +283,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -293,6 +299,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,11 +469,14 @@
       <workItem from="1648408609285" duration="32000" />
       <workItem from="1648831550944" duration="1338000" />
       <workItem from="1649566575382" duration="795000" />
+      <workItem from="1650049321382" duration="1809000" />
+      <workItem from="1650054482210" duration="42000" />
+      <workItem from="1650994405402" duration="103000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="465247000" />
+    <option name="totallyTimeSpent" value="467201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,10 +488,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="4" width="1889" height="1007" extended-state="0" />
+    <frame x="-4" y="0" width="1889" height="1007" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21541826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22197923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -528,24 +538,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/artisan">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/listy/_doUsera.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/wiadomosciForm/formListUser.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/listy/doIZSK.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/listy/doUsera.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -773,13 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="433" selection-start-line="433" selection-end-line="433" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer_kopia.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -856,17 +841,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tresc/menu-glowne.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PropozycjeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="105" column="38" lean-forward="true" selection-start-line="105" selection-start-column="38" selection-end-line="105" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/tresc/edycja/propozycje-edycja.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/debugbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3675" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/szablon.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="25">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/pomocnikAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
         </state>
       </provider>
     </entry>
