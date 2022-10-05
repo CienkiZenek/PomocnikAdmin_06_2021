@@ -12,6 +12,7 @@ class Zagadnienia extends Model
     protected $table = 'zagadnienia';
     protected $fillable =['zagadnienie',
         'tresc',
+        'w_skrocie',
         'wiecej',
         'zajawka_tytul',
         'zajawka',

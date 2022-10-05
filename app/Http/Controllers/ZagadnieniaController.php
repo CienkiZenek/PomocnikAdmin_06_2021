@@ -34,6 +34,7 @@ class ZagadnieniaController extends Controller
             'historia_zmian'=>'nullable',
             'dodal_user'=>'nullable',
             'tresc'=>'nullable',
+            'w_skrocie'=>'nullable',
             'wiecej'=>'nullable',
             'zajawka'=>'nullable|max:210',
             'zajawka_pokaz'=>'nullable',
@@ -197,9 +198,10 @@ class ZagadnieniaController extends Controller
         $szukane=$request->get('szukane');
         $Wyniki=Zagadnienia::where('zagadnienie', 'like', "%$szukane%")
             ->orWhere('tresc', 'like', "%$szukane%")
+            ->orWhere('w_skrocie', 'like', "%$szukane%")
             ->orWhere('wiecej', 'like', "%$szukane%")
             ->orWhere('zajawka', 'like', "%$szukane%")
-            ->orWhere('rozserz', 'like', "%$szukane%")
+            ->orWhere('rozszerz', 'like', "%$szukane%")
             ->paginate(9);
         $Wyniki->appends(['szukane'=>$szukane]);
         return view('tresc.listy.zagadnienia-lista', compact('Wyniki'));

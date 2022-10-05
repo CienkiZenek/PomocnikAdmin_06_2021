@@ -79,7 +79,8 @@ public function formularzNowe(){
         $linkiDoListy='/listaZnalezione';
         $nazwaListy='Lista znalezionych w sieci';
         session()->flash('komunikat', "Znalezione zostało zaktualizowane!");
-        return view('tresc.edycja.znalezione-edycja', ['znal'=>$znal, 'linkiDoListy'=>$linkiDoListy, 'nazwaListy'=>$nazwaListy, 'Media'=>$Media]);
+        $user=User::findOrFail($znal->dodal_user);
+        return view('tresc.edycja.znalezione-edycja', ['znal'=>$znal, 'linkiDoListy'=>$linkiDoListy, 'nazwaListy'=>$nazwaListy, 'Media'=>$Media, 'user'=>$user]);
 
     }
 

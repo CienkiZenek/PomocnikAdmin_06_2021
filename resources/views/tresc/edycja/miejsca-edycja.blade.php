@@ -8,6 +8,7 @@
 
     <form action="{{route('miejscaUpdate', $miejsce->id)}}" method="POST">
         @csrf
+
         <div class="wys15"></div>
 
         <div class="row">
@@ -18,9 +19,12 @@
                         <span class="input-group-text" id="rodzaj1">Rodzaj:</span>
                     </div>
                     <select class="form-control" id="rodzaj" name="rodzaj" aria-label="rodzaj" aria-describedby="rodzaj1">
+                        <option value="Film" @if($miejsce->rodzaj=='Film') selected @endif>Film</option>
                         <option value="Forum" @if($miejsce->rodzaj=='Forum') selected @endif>Forum</option>
                         <option value="Wiadomość" @if($miejsce->rodzaj=='Wiadomość') selected @endif>Wiadomość</option>
+                        <option value="SocialMedia" @if($miejsce->rodzaj=='SocialMedia') selected @endif>SocialMedia</option>
                         <option value="Inne" @if($miejsce->rodzaj=='Inne') selected @endif>Inne</option>
+
                     </select>
                 </div>
 

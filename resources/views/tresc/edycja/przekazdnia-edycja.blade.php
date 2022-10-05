@@ -73,6 +73,28 @@
             <div class="col-12">
                 <div class="input-group">
                     <div class="input-group-prepend">
+                        <span class="input-group-text" >Link (url):</span>
+                    </div>
+                    <input type="url" class="form-control{{ $errors->has('link') ? ' is-invalid' : '' }}" name="link" id="link" value="{{$przekaz->link}}"  >
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" >Link (treść):</span>
+                    </div>
+                    <input type="text" class="form-control{{ $errors->has('link_tresc') ? ' is-invalid' : '' }}" name="link_tresc" id="link_tresc" value="{{$przekaz->link_tresc}}"  >
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="input-group">
+                    <div class="input-group-prepend">
                         <span class="input-group-text" >Ramka 1:</span>
                     </div>
                     <textarea class="form-control" name="ramka1" id="ramka1" aria-label="Ramka 1:">{{$przekaz->ramka1}}</textarea>

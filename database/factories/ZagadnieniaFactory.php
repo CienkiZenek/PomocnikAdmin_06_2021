@@ -21,6 +21,7 @@ class ZagadnieniaFactory extends Factory
     return [
         'zagadnienie' =>$this->faker->text(30),
         'tresc' =>$this->faker->text(790),
+        'w_skrocie' =>$this->faker->text(300),
         'wiecej' =>$this->faker->text(890),
         'zajawka_tytul' =>$this->faker->text(20),
         'zajawka' =>$this->faker->text(80),

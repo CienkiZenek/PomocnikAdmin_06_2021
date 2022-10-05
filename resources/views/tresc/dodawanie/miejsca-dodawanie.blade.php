@@ -7,6 +7,8 @@
 </div>
     <form action="{{route('miejscaZapisNowe')}}" method="POST">
         @csrf
+        <input type="text" name="status" value="Aktywne" hidden />
+
         <div class="wys15"></div>
         <div class="row">
 <div class="col-4">
@@ -16,8 +18,10 @@
             <span class="input-group-text" id="rodzaj1">Rodzaj:</span>
         </div>
         <select class="form-control" id="rodzaj" name="rodzaj" aria-label="rodzaj" aria-describedby="rodzaj1">
+            <option value="Film" >Film</option>
             <option value="Forum" >Forum</option>
             <option value="Wiadomość" >Wiadomość</option>
+            <option value="SocialMedia" >SocialMedia</option>
             <option value="Inny" >Inny</option>
         </select>
     </div>

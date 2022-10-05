@@ -105,6 +105,18 @@
 
             </div>
         </div>
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" >W skrócie:</span>
+                    </div>
+                    <textarea class="form-control{{ $errors->has('w_skrocie') ? ' is-invalid' : '' }}" rows="2" name="w_skrocie" id="w_skrocie" aria-label="W skrócie:" maxlength="200">{{ old('w_skrocie') }}</textarea>
+                </div>
+
+            </div>
+        </div>
         <div class="row mt-3">
             <div class="col-12">
                 <div class="input-group">

@@ -48,7 +48,7 @@ class MiejscaController extends Controller
     public function create(Request $request)
     {
        //$data=$request->all();
-        $data = $this->validator($request->all());
+       $data = $this->validator($request->all());
         $data = Arr::add($data, 'dodal_user', 1);
         $data = Arr::add($data, 'dodal_user_nazwa', 'Admin');
 Miejsca::create($data);
@@ -70,7 +70,7 @@ Miejsca::create($data);
     public function update(Request $request, $id)
     {
         $miejsce = Miejsca::findOrFail($id);
-        $data = $request->all();
+        //$data = $request->all();
         $data = $this->validator($request->all());
         $miejsce->update($data);
         Log::info($data);
@@ -78,7 +78,8 @@ Miejsca::create($data);
         $Media=Media::orderBy('nazwa', 'asc')->get();
         $nazwaListy='Lista miejsc dyskusji';
         session()->flash('komunikat', "Miejsce dyskusji zostało zaktualizowane!");
-        return view('tresc.edycja.miejsca-edycja', ['miejsce'=>$miejsce, 'linkiDoListy'=>$linkiDoListy, 'nazwaListy'=>$nazwaListy, 'Media'=>$Media]);
+        $user=User::findOrFail($miejsce->dodal_user);
+        return view('tresc.edycja.miejsca-edycja', ['miejsce'=>$miejsce, 'linkiDoListy'=>$linkiDoListy, 'nazwaListy'=>$nazwaListy, 'Media'=>$Media, 'user'=>$user]);
 //return $data;
     }
 

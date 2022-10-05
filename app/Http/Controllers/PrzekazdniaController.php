@@ -19,9 +19,11 @@ class PrzekazdniaController extends Controller
                         'status'=>'required',
                         'naglowek'=>'nullable',
                         'tresc'=>'nullable',
+                        'link'=>'nullable|url',
+                        'link_tresc'=>'nullable',
                         'ramka1'=>'nullable',
                         'ramka2'=>'nullable',
-            
+
 
 
         ])->validate();

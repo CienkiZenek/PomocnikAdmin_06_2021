@@ -153,6 +153,18 @@
             <div class="col-12">
                 <div class="input-group">
                     <div class="input-group-prepend">
+                        <span class="input-group-text" >W skrócie:</span>
+                    </div>
+                    <textarea class="form-control{{ $errors->has('w_skrocie') ? ' is-invalid' : '' }}" rows="3" name="w_skrocie" id="w_skrocie" aria-label="W skrócie:" >{{$zagadnienie->w_skrocie}}</textarea>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-12">
+                <div class="input-group">
+                    <div class="input-group-prepend">
                         <span class="input-group-text" >Treść:</span>
                     </div>
                     <textarea class="form-control" rows="8" name="tresc" id="tresc" aria-label="Treść:">{{$zagadnienie->tresc}}</textarea>
