@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Zagadnienia_uwagi;
 use App\Zagadnienia;
+use App\Hasla;
 use App\User;
 use Illuminate\Support\Arr;
 
@@ -86,15 +87,28 @@ class ZagadnieniaUwagiController extends Controller
     {
         $uwaga = Zagadnienia_uwagi::findOrFail($id);
         $linkiDoListy='/listaZagadnieniaUwagi';
-        $nazwaListy='Lista uwag do zagadnienia';
+        $nazwaListy='Lista uwag do zagadnień lub haseł';
         $user=User::findOrFail($uwaga->dodal_user);
+        // czy obsługujemy uwagę do hała czy do zagadnienia
+        if(isset($uwaga->zagadnienie_id)&& $uwaga->zagadnienie_id>0){
         $zagadnienie=Zagadnienia::findOrFail($uwaga->zagadnienie_id);
         return view('tresc.edycja.zagadnieniaUwagi-edycja', ['uwaga'=>$uwaga,
             'linkiDoListy'=>$linkiDoListy,
             'user'=>$user,
             'lista'=>'Wszystkie',
+            'uwagaDo'=>'zagadnienie',
             'nazwaListy'=>$nazwaListy,
             'zagadnienie'=>$zagadnienie]);
+        }
+        else {
+
+            return view('tresc.edycja.zagadnieniaUwagi-edycja', ['uwaga'=>$uwaga,
+                'linkiDoListy'=>$linkiDoListy,
+                'user'=>$user,
+                'lista'=>'Wszystkie',
+                'uwagaDo'=>'zagadnienie',
+                'nazwaListy'=>$nazwaListy]);
+        }
     }
 
     /**
@@ -111,16 +125,42 @@ class ZagadnieniaUwagiController extends Controller
         $historia=$uwaga['historia_zmian'].' Zmieniono: '.Now();
         $data['historia_zmian'] = $historia;
         $uwaga->update($data);
-        $linkiDoListy='/listaPropozycje';
-        $nazwaListy='Lista uwag do zagadnień';
+        $linkiDoListy='/listaZagadnieniaUwagi';
+        $nazwaListy='Lista uwag do zagadnień lub haseł';
         $user=User::findOrFail($uwaga->dodal_user);
         $zagadnienie=Zagadnienia::findOrFail($uwaga->zagadnienie_id);
         session()->flash('komunikat', "Propozycja została zaktualizowana!");
-        return view('tresc.edycja.zagadnieniaUwagi-edycja', ['uwaga'=>$uwaga,
+
+       /* return view('tresc.edycja.zagadnieniaUwagi-edycja', ['uwaga'=>$uwaga,
             'linkiDoListy'=>$linkiDoListy,
             'nazwaListy'=>$nazwaListy,
             'user'=>$user,
-            'zagadnienie'=>$zagadnienie]);
+            'zagadnienie'=>$zagadnienie]);*/
+
+        if(isset($uwaga->zagadnienie_id)&& $uwaga->zagadnienie_id>0){
+            $zagadnienie=Zagadnienia::findOrFail($uwaga->zagadnienie_id);
+            return view('tresc.edycja.zagadnieniaUwagi-edycja', ['uwaga'=>$uwaga,
+                'linkiDoListy'=>$linkiDoListy,
+                'user'=>$user,
+                'lista'=>'Wszystkie',
+                'uwagaDo'=>'zagadnienie',
+                'nazwaListy'=>$nazwaListy,
+                'zagadnienie'=>$zagadnienie]);
+        }
+        else {
+
+            $haslo=Hasla::findOrFail($uwaga->haslo_id);
+            return view('tresc.edycja.zagadnieniaUwagi-edycja', ['uwaga'=>$uwaga,
+                'linkiDoListy'=>$linkiDoListy,
+                'user'=>$user,
+                'lista'=>'Wszystkie',
+                'uwagaDo'=>'haslo',
+                'nazwaListy'=>$nazwaListy,
+                'haslo'=>$haslo]);
+        }
+
+
+
     }
 
     /**

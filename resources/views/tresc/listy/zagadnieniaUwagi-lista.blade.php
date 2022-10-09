@@ -3,7 +3,7 @@
 @section('tresc')
 
 <p class="badge bg-secondary fs-5">
-    Lista dodanych uwag do zagadnień
+    Lista dodanych uwag do zagadnień lub haseł
 </p>
     <div class="row mt-3">
 

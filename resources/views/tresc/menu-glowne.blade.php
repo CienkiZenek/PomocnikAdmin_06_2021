@@ -32,7 +32,7 @@
     </div>
     <div class="row mt-1" >
         <div class="btn-group btn-group-lg" role="group" aria-label="...">
-            <a href="{{route('listaZagadnieniaUwagi', 'Nowa')}}" class="btn btn-primary" role="button" aria-pressed="true">Zagadnienia - uwagi</a>
+            <a href="{{route('listaZagadnieniaUwagi', 'Nowa')}}" class="btn btn-primary" role="button" aria-pressed="true">Zagadnienia/Hasła - uwagi</a>
             <a href="{{route('listaPropozycje', 'Nowa')}}" class="btn btn-primary" role="button" aria-pressed="true">Propozycje</a>
             <a href="{{route('listaPropozycjeUwagi', 'Nowa')}}" class="btn btn-primary" role="button" aria-pressed="true">Propozycje - uwagi</a>
 

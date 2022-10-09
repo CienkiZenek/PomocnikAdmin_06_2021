@@ -49,7 +49,12 @@
         <div class="row mt-3">
             <div class="col-8 offset-2">
                 <div class="fs-5">
+                    @if($uwagaDo=='zagadnienie')
                     <span class="badge bg-secondary">Uwaga do zagadnienia: </span> <a href="{{route('edycjaZagadnienia',$zagadnienie->id )}}" class="link-primary">{{$zagadnienie->zagadnienie}}</a>
+                    @endif
+                        @if($uwagaDo=='haslo')
+                            <span class="badge bg-secondary">Uwaga do hasła: </span> <a href="{{route('edycjaHasla',$haslo->id )}}" class="link-primary">{{$haslo->haslo}}</a>
+                        @endif
                 </div>
         </div>
         </div>
