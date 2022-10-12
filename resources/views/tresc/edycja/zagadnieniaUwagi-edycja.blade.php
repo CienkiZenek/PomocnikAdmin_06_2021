@@ -3,24 +3,14 @@
 @section('tresc')
 
 
-{{--@if (!isset($user))
-{{$user=App\User::findOrFail($propozycja->dodal_user)}}
-@endif--}}
-
-
-
     <form action="{{route('zagadnieniaUwagiUpdate', $uwaga->id)}}" method="POST">
         @csrf
-
-{{--<input type="hidden" name="user" value="{{$user}}"/>--}}
         <div class="row mt-3 ">
             <div class="col-6">
 
                 @include('dodatki.dodal', ['user'=>$user])
 
             </div>
-
-
 
             <div class="col-3">
 
@@ -37,14 +27,10 @@
                     </select>
                 </div>
 
-
             </div>
-
             <div class="col-3">
-
                 <button type="submit" class="btn btn-primary">Zmień status</button>
             </div>
-
         </div>
         <div class="row mt-3">
             <div class="col-8 offset-2">
@@ -52,9 +38,11 @@
                     @if($uwagaDo=='zagadnienie')
                     <span class="badge bg-secondary">Uwaga do zagadnienia: </span> <a href="{{route('edycjaZagadnienia',$zagadnienie->id )}}" class="link-primary">{{$zagadnienie->zagadnienie}}</a>
                     @endif
+
                         @if($uwagaDo=='haslo')
                             <span class="badge bg-secondary">Uwaga do hasła: </span> <a href="{{route('edycjaHasla',$haslo->id )}}" class="link-primary">{{$haslo->haslo}}</a>
                         @endif
+
                 </div>
         </div>
         </div>
@@ -66,23 +54,14 @@
 </div>
             </div>
         </div>
-
-
         <div class="row mt-3">
             <div class="col-8 offset-2">
                 <div class="lh-2 fs-5 t_justify p-3 tlo-szare1">
                     {{$uwaga->tresc}}
                 </div>
-
             </div>
-
-
         </div>
-
-
     </form>
-
-
 
 <button class="btn btn-danger mt-5 mb-5" type="button" data-bs-toggle="collapse" data-bs-target="#usuwanie" aria-expanded="false" aria-controls="usuwanie">
         Usuwanie
@@ -93,15 +72,9 @@
             <form action="{{route('usunZagadnieniaUwagi', $uwaga->id)}}" method="post">
                 @csrf
                 {{method_field('DELETE')}}
-                <button class="btn btn-danger" onclick="return confirm('Jesteś pewien?')">Usuń znalezione</button>
-
+                <button class="btn btn-danger" onclick="return confirm('Jesteś pewien?')">Usuń uwagę</button>
 
             </form>
-
         </div>
     </div>
-
-
-
-
 @endsection

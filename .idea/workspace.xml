@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00fb083a-9165-47ff-bbcd-f403b9074c3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaUwagiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ZagadnieniaUwagiController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/pomocnikAdmin.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/pomocnikAdmin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/tresc/edycja/zagadnieniaUwagi-edycja.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/edycja/zagadnieniaUwagi-edycja.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/listy/zagadnieniaUwagi-lista.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/listy/zagadnieniaUwagi-lista.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/tresc/menu-glowne.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/tresc/menu-glowne.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,6 +467,7 @@
       <workItem from="1664912600013" duration="1798000" />
       <workItem from="1665288608422" duration="1099000" />
       <workItem from="1665335359323" duration="4732000" />
+      <workItem from="1665594379954" duration="2063000" />
     </task>
     <servers />
   </component>

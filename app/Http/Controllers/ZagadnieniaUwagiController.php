@@ -85,6 +85,8 @@ class ZagadnieniaUwagiController extends Controller
      */
     public function edit($id)
     {
+
+
         $uwaga = Zagadnienia_uwagi::findOrFail($id);
         $linkiDoListy='/listaZagadnieniaUwagi';
         $nazwaListy='Lista uwag do zagadnień lub haseł';
@@ -100,15 +102,26 @@ class ZagadnieniaUwagiController extends Controller
             'nazwaListy'=>$nazwaListy,
             'zagadnienie'=>$zagadnienie]);
         }
-        else {
-
+        else if(isset($uwaga->haslo_id) && $uwaga->haslo_id>0) {
+            $haslo=Hasla::findOrFail($uwaga->haslo_id);
             return view('tresc.edycja.zagadnieniaUwagi-edycja', ['uwaga'=>$uwaga,
                 'linkiDoListy'=>$linkiDoListy,
                 'user'=>$user,
                 'lista'=>'Wszystkie',
-                'uwagaDo'=>'zagadnienie',
-                'nazwaListy'=>$nazwaListy]);
+                'uwagaDo'=>'haslo',
+                'nazwaListy'=>$nazwaListy,
+                'haslo'=>$haslo
+                ]);
+            return view('tresc.edycja.zagadnieniaUwagi-edycja');
         }
+
+        else {
+
+            session()->flash('komunikat', "Błąd przy wyświatlaniu uwagi!");
+            return redirect(route('listaZagadnieniaUwagi', 'Wszystkie'));
+        }/**/
+
+
     }
 
     /**
@@ -174,7 +187,7 @@ class ZagadnieniaUwagiController extends Controller
         $uwaga = Zagadnienia_uwagi::findOrFail($id);
         $uwaga->delete();
         session()->flash('komunikat', "Uwaga do zagadnienia została usunięta!");
-        return redirect('/listaZagadnieniaUwagi');
+        return redirect(route('listaZagadnieniaUwagi', 'Wszystkie'));
     }
 
     public function search(Request $request){

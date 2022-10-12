@@ -4,7 +4,7 @@
  * */
 return [
 
-    'wersja' => env('APP_VERSION', '0.23'),
+    'wersja' => env('APP_VERSION', '0.231'),
 
 
 
