@@ -149,10 +149,10 @@ class ZagadnieniaController extends Controller
         // AKTUALIZACJA WŁASCIWA:
         $zagadnienie->update($data);
 
-        if(isset($data['obrazek1'])) {
+        if(isset($data['obrazek1'])&& strlen($oldObrazek1)>4) {
             Storage::delete($oldObrazek1);
         }
-        if(isset($data['obrazek2'])) {
+        if(isset($data['obrazek2'])&& strlen($oldObrazek2)>4) {
             Storage::delete($oldObrazek2);
         }
 // zmienne do przekazania do widoku:
